@@ -90,6 +90,7 @@
 		</dependency>
 		
 	</dependencies>
+	<!--
 	<distributionManagement>
 	
 	    <repository>
@@ -144,6 +145,7 @@
 			</plugin>
 			
 </plugins>
+-->
 	</build>
 	
 	
