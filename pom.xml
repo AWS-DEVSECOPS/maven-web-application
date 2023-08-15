@@ -89,21 +89,20 @@
 		
 	</dependencies>
 
-	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Releases Nexus Repository</name>
-	      <url>http://54.202.92.39:8081/repository/maven-releases/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Snapshot Nexus Repository </name>
-	      <url>http://54.202.92.39:8081/repository/maven-snapshots/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
+<distributionManagement>
+      <repository>
+      <id>nexus</id>
+      <name>Releases Nexus Repository</name>
+      <url>http://172.31.45.132:8081/repository/firstproject-releases/</url>
+    </repository>
+    
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot Nexus Repository </name>
+      <url>http://172.31.45.132:8081/repository/firstproject-snapshots/</url>
+    </snapshotRepository>
+    
+</distributionManagement>
 
 	<build>
 		<finalName>maven-web-application</finalName>
