@@ -93,13 +93,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>FirstProject Releases</name>
-	      <url>http://172.31.45.132:8081/repository/firstproject-releases/</url>
+	      <url>http://18.61.70.72:8081/repository/firstproject-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>FirstProject Snapshot</name>
-	      <url>http://172.31.45.132:8081/repository/firstproject-snapshots/</url>
+	      <url>http://18.61.70.72:8081/repository/firstproject-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
